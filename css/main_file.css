@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url(../css/Accessories/global.css);
+@import url(../css/Accessories/vars.css);
+@import url(../css/Sections/header.css);
+@import url(../css/Sections/main_sec.css);
+@import url(../css/Sections/about_sec.css);
+@import url(../css/Sections/Services_sec.css);
+@import url(../css/Sections/portfolio_sec.css);
+@import url(../css/Sections/blog_sec.css);
+@import url(../css/Sections/footer.css);

@@ -1,0 +1,199 @@
+footer {
+  height: 120vh;
+  background-color: var(--main_color);
+  font-family: var(--font_2);
+  background-image: url(../../img/footer_bg.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 20%;
+}
+
+footer .contaniar {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+
+  gap: 80px;
+}
+
+.footer_contant {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  text-align: center;
+}
+.footer_contant img {
+  width: 150px;
+  height: 150px;
+}
+.footer_contant p:nth-child(2) {
+  font-family: var(--font_1);
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.form_cont {
+  padding: 30px 10px 30px 30px;
+  width: 500px;
+  height: 60px;
+  background-color: var(--light3_purple);
+  border-radius: 50px;
+}
+form {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+form input {
+  color: var(--white);
+  background-color: transparent;
+  border: 0;
+}
+
+form input:focus {
+  outline: none;
+}
+form input::placeholder {
+  color: wheat;
+  text-align: center;
+}
+
+form button {
+  border: 0;
+  cursor: pointer;
+}
+
+.our_info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.bart_1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-bottom: var(--light4_purple) solid 1px;
+  border-radius: 1px;
+  padding: 0 0 40px 0;
+}
+.bart_1 div p:nth-child(1) {
+  font-family: var(--font_1);
+  font-weight: bold;
+}
+.summary {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer_links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.our_serv {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.Contact_us {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.bart_2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Communication_rights {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+  footer {
+    height: 210vh;
+    background-size: 55%;
+  }
+
+  .bart_1 {
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  .bart_1 div p:nth-child(1) {
+    font-family: var(--font_1);
+    font-weight: bold;
+  }
+  .bart_2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .Communication_rights {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  .form_cont {
+    padding: 30px 10px 30px 30px;
+    width: 300px;
+    height: 120px;
+    background-color: var(--light3_purple);
+    border-radius: 35px;
+  }
+  form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  form button {
+    color: var(--white);
+  }
+  
+}
+@media (min-width: 576px) and (max-width: 768px){
+  footer {
+    height: 200vh;
+    background-size: 50%;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px){
+  footer {
+    height: 180vh;
+    background-size: 35%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px){
+  .bart_1 {
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  .bart_1 div p:nth-child(1) {
+    font-family: var(--font_1);
+    font-weight: bold;
+  }
+  .bart_2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .Communication_rights {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+}

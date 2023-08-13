@@ -1,0 +1,206 @@
+.about {
+  background-color: var(--main_color);
+  border-bottom: 0.5px solid var(--light2);
+  padding: 0 0 100px 0;
+  overflow: hidden;
+}
+.about .contaniar {
+  height: 150vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+/* first bart */
+.Companies {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.Companies p:nth-child(1) {
+  font-family: var(--font_1);
+}
+.Companies p:nth-child(2) {
+  font-family: var(--font_2);
+  font-size: 40px;
+  font-weight: bold;
+}
+/* second bart */
+.Companies_pic {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  justify-items: center;
+  width: 100%;
+  gap: 40px;
+}
+.empty_div {
+  width: 40%;
+  height: 3px;
+  background-color: #fff;
+}
+.about_contant {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  flex-wrap: wrap;
+}
+.about_img {
+  width: 40%;
+}
+.about_img img {
+  width: 90%;
+  height: 90%;
+}
+.about_text {
+  width: 35%;
+  display: flex;
+  gap: 25px;
+}
+.about_text_contant {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  line-height: 1.3;
+}
+.about_text_contant p {
+  font-family: var(--font_2);
+  font-size: 12px;
+}
+.about_text_contant p:nth-child(1) {
+  font-family: var(--font_1);
+  font-size: 25px;
+  font-weight: bold;
+}
+.about_text_contant p:nth-child(2) {
+  font-size: 15px;
+  font-weight: bold;
+}
+/* thrid bart */
+.statistics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 40px;
+}
+.statistics p:nth-child(1) {
+  font-family: var(--font_2);
+}
+.statistics p:nth-child(2) {
+  font-family: var(--font_1);
+  font-size: 2rem;
+  font-weight: bold;
+}
+.statistics_design {
+  width: 85%;
+  height: 200px;
+  background-color: var(--light_purple);
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 0.5px solid var(--light);
+  border-radius: 100px;
+}
+
+.statistics_design .border {
+  width: 1px;
+  height: 30%;
+  background-color: var(--white);
+  border-radius: 1px;
+}
+
+.statistics_design .stati_contant {
+  line-height: 1.3;
+}
+.stati_contant p:nth-child(1) {
+  font-size: 70px;
+  font-weight: 900;
+  color: var(--white);
+  font-family: var(--font_1);
+}
+.stati_contant p:nth-child(2) {
+  font-weight: bold;
+  font-size: 14px;
+  color: var(--white);
+  font-family: var(--font_2);
+}
+@media (min-width: 0px) and (max-width: 992px) {
+  .about .contaniar{
+    height: 200vh;
+  }
+  .about_img {
+    width: 450px;
+  }
+  .about_img img {
+    width: 100%;
+    height: 100%;
+  }
+  .about_text {
+    margin-top: 30px;
+    justify-content: center;
+    width: 70%;
+    display: flex;
+    gap: 25px;
+  }
+  .about_text_contant p{
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.4;
+  }
+  .about_text_contant p:nth-child(1) {
+    text-align: center;
+  }
+  .about_text_contant a:nth-child(6) {
+    margin: auto;
+  }
+  .statistics_design{
+    width: 300px;
+    height: 600px;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: 120px;
+  }
+  .statistics_design .border {
+    width: 30%;
+    height: 1px;
+    background-color: var(--white);
+    border-radius: 1px;
+  }
+
+}
+@media (min-width: 0px) and (max-width: 1200px) {
+  .Companies_pic {
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: end;
+    width: 100%;
+    gap: 10px;
+  }
+  .Companies_pic a:nth-child(1) {
+    grid-area: 2 / 2 / 3 / 3;
+  }
+  .Companies_pic a:nth-child(2) {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  .Companies_pic a:nth-child(3) {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+  .Companies_pic a:nth-child(4) {
+    grid-area: 1 / 3 / 2 / 4;
+  }
+  .Companies_pic a:nth-child(5) {
+    grid-area: 1 / 4 / 2 / 5;
+  }
+  .Companies_pic a:nth-child(6) {
+    grid-area: 1 / 5 / 2 / 6;
+  }
+  .Companies_pic a:nth-child(7) {
+    grid-area: 2 / 3 / 3 / 4;
+  }
+  .empty_div {
+    display: none;
+  }
+}

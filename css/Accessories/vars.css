@@ -1,0 +1,22 @@
+:root {
+  /* fonts */
+  --font_1: "Poppins", sans-serif;
+  --font_2: "Roboto", sans-serif;
+  /*----------------------------------*/
+  /* color */
+  --main_color: #51495f;
+  --loading_color: #9b59b6;
+  --white: #fff;
+  --light: #e9e5e5d2;
+  --light2: #e9e5e54c;
+  --purple: #b28af8;
+  --light_purple: #956ae1;
+  --light2_purple: #b28af8;
+  --light3_purple: #C4A3FD;
+  --light4_purple: #DCC7FF;
+  --light_green: #e2fef0;
+  --light_blue: #aacbfc;
+  --light_pink: #ffc7e1;
+  --light_yellow: #fcffce;
+  
+}
