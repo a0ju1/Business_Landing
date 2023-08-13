@@ -117,10 +117,10 @@ main .contaniar {
     display: none;
   }
   .main_pic2 {
-    width: 600px;
-    height: 400px;
+    width: 550px;
+    height: 350px;
     top: 5%;
-    left: 5%;
+    left: 7%;
     z-index: -1;
   }
   .main_cri_btn_hidden {
